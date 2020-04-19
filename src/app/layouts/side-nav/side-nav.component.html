@@ -1,0 +1,5 @@
+<div *ngFor="let nav of navData.body">
+    <div class="nav-menu" routerLink="{{nav.link}}">
+        <span class="material-icons nav-icon">{{nav.imageUrl}}</span>{{nav.data}}
+    </div>
+</div>

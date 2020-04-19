@@ -1,0 +1,14 @@
+$sidenav-bg-color : #ebeef2;
+
+mat-sidenav-container {
+    height: 100vh;
+}
+
+mat-sidenav, mat-sidenav-content {
+    padding: 16px;
+}
+
+mat-sidenav{
+    background-color: $sidenav-bg-color;
+    width: 250px;
+}

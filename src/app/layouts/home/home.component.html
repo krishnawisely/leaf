@@ -1,0 +1,14 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" [(opened)]="isToggle">
+       <app-side-nav [navData]="navigation"></app-side-nav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <button mat-raised-button color="primary" (click)="isToggle=!isToggle">
+            <span class="material-icons">
+                view_quilt
+            </span>
+        </button>
+        <p>home-layout works!</p>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
