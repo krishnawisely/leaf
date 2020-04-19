@@ -45,13 +45,8 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Json
-package-lock.json
-tsconfig.app.json
-tsconfig.json
-tsconfig.spec.json
-tslint.json
-
 #folders
 browserslist
 .editorconfig
+
+.vscode/
